@@ -1,0 +1,40 @@
+/*universal selector*/
+
+*{
+margin: 1px;
+}
+
+body{
+/*background-color:black;*/
+/*type selector*/
+h1,h2{
+color: khaki;
+font-size: 50px;
+}
+}
+/*class selector*/
+.four{
+    background-color:orchid;
+}
+/*Id selector*/
+#heading{
+    color: blueviolet;
+}
+/*child selector*/
+div>p{
+    color: blue;
+}
+/*descendant selector*/
+div span {
+    font-size: 40px;
+}
+/*adjacent selector*/
+div+span{
+   background-color: brown; 
+}
+/*general sibling selector*/
+h1~p{
+    background-color: coral;
+}
+
+
